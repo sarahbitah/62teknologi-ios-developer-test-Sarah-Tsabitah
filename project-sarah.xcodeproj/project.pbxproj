@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80DC8242A77DEEF003662E8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DC8232A77DEEF003662E8 /* MenuView.swift */; };
+		B80DC8262A77E070003662E8 /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DC8252A77E070003662E8 /* CatFactView.swift */; };
+		B80DC8282A77E0CF003662E8 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DC8272A77E0CF003662E8 /* JokeView.swift */; };
+		B80DC82A2A77E0FE003662E8 /* DogieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DC8292A77E0FE003662E8 /* DogieView.swift */; };
+		B80DC82C2A77E11F003662E8 /* GuessAgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DC82B2A77E11F003662E8 /* GuessAgeView.swift */; };
+		B80DC8302A77E191003662E8 /* IpInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DC82F2A77E191003662E8 /* IpInfoView.swift */; };
+		B80DC8322A77E1F0003662E8 /* GuessGenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DC8312A77E1F0003662E8 /* GuessGenderView.swift */; };
 		B82453D92A77C5AA0063C0F5 /* project_sarahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82453D82A77C5AA0063C0F5 /* project_sarahApp.swift */; };
-		B82453DB2A77C5AA0063C0F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82453DA2A77C5AA0063C0F5 /* ContentView.swift */; };
 		B82453DD2A77C5AB0063C0F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82453DC2A77C5AB0063C0F5 /* Assets.xcassets */; };
 		B82453E02A77C5AB0063C0F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82453DF2A77C5AB0063C0F5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B80DC8232A77DEEF003662E8 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B80DC8252A77E070003662E8 /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
+		B80DC8272A77E0CF003662E8 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
+		B80DC8292A77E0FE003662E8 /* DogieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogieView.swift; sourceTree = "<group>"; };
+		B80DC82B2A77E11F003662E8 /* GuessAgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessAgeView.swift; sourceTree = "<group>"; };
+		B80DC82F2A77E191003662E8 /* IpInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpInfoView.swift; sourceTree = "<group>"; };
+		B80DC8312A77E1F0003662E8 /* GuessGenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessGenderView.swift; sourceTree = "<group>"; };
 		B82453D52A77C5AA0063C0F5 /* project-sarah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-sarah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82453D82A77C5AA0063C0F5 /* project_sarahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_sarahApp.swift; sourceTree = "<group>"; };
-		B82453DA2A77C5AA0063C0F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B82453DC2A77C5AB0063C0F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B82453DF2A77C5AB0063C0F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,9 +64,15 @@
 			isa = PBXGroup;
 			children = (
 				B82453D82A77C5AA0063C0F5 /* project_sarahApp.swift */,
-				B82453DA2A77C5AA0063C0F5 /* ContentView.swift */,
+				B80DC8232A77DEEF003662E8 /* MenuView.swift */,
 				B82453DC2A77C5AB0063C0F5 /* Assets.xcassets */,
 				B82453DE2A77C5AB0063C0F5 /* Preview Content */,
+				B80DC8252A77E070003662E8 /* CatFactView.swift */,
+				B80DC8272A77E0CF003662E8 /* JokeView.swift */,
+				B80DC8292A77E0FE003662E8 /* DogieView.swift */,
+				B80DC82B2A77E11F003662E8 /* GuessAgeView.swift */,
+				B80DC82F2A77E191003662E8 /* IpInfoView.swift */,
+				B80DC8312A77E1F0003662E8 /* GuessGenderView.swift */,
 			);
 			path = "project-sarah";
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82453DB2A77C5AA0063C0F5 /* ContentView.swift in Sources */,
+				B80DC8282A77E0CF003662E8 /* JokeView.swift in Sources */,
+				B80DC8262A77E070003662E8 /* CatFactView.swift in Sources */,
+				B80DC82C2A77E11F003662E8 /* GuessAgeView.swift in Sources */,
+				B80DC8302A77E191003662E8 /* IpInfoView.swift in Sources */,
+				B80DC82A2A77E0FE003662E8 /* DogieView.swift in Sources */,
+				B80DC8242A77DEEF003662E8 /* MenuView.swift in Sources */,
 				B82453D92A77C5AA0063C0F5 /* project_sarahApp.swift in Sources */,
+				B80DC8322A77E1F0003662E8 /* GuessGenderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

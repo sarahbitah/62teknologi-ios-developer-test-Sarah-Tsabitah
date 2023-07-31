@@ -2,7 +2,7 @@
 //  project_sarahApp.swift
 //  project-sarah
 //
-//  Created by Sarah Tsabitah on 31/07/23.
+//  Created by Sarah Tsabitah on 29/07/23.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct project_sarahApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuView()
         }
     }
 }
